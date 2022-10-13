@@ -771,6 +771,10 @@ a:link
     display: inline-block;
     cursor: pointer;
     width: 370px;
+
+    transition-property: box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .flex-block {
@@ -791,7 +795,7 @@ a:link
     padding: 63px 24px;
 
     background-color: rgba(33, 150, 243, 0.9);
-    transition-property: background-color, box-shadow, transform;
+    transition-property: transform;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     
